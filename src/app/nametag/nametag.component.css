@@ -1,0 +1,9 @@
+.name-tag{
+    width: 150px;
+    height: 150px;
+    color:white;
+    background-color: green;
+    display: inline-block !important;
+    text-align: center;
+    line-height: 150px;
+}

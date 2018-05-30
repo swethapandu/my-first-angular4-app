@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NametagComponent } from './nametag.component';
+import { OuterComponent } from './outer.component';
 
-describe('NametagComponent', () => {
-  let component: NametagComponent;
-  let fixture: ComponentFixture<NametagComponent>;
+describe('OuterComponent', () => {
+  let component: OuterComponent;
+  let fixture: ComponentFixture<OuterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NametagComponent ]
+      declarations: [ OuterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NametagComponent);
+    fixture = TestBed.createComponent(OuterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
